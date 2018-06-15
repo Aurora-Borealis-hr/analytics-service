@@ -1,0 +1,22 @@
+{
+  "name": "analytics-service",
+  "version": "1.0.0",
+  "description": "analytics service api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aurora-Borealis-hr/analytics-service.git"
+  },
+  "author": "Amogh Kambale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aurora-Borealis-hr/analytics-service/issues"
+  },
+  "homepage": "https://github.com/Aurora-Borealis-hr/analytics-service#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
