@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Aurora-Borealis-hr/analytics-service#readme",
   "dependencies": {
+    "chai": "^4.1.2",
     "express": "^4.16.3"
   }
 }
