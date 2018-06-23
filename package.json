@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/Aurora-Borealis-hr/analytics-service#readme",
   "dependencies": {
+    "async": "^2.6.1",
     "cassandra-driver": "^3.5.0",
     "chai": "^4.1.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "faker": "^4.1.0"
   }
 }

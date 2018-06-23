@@ -1,4 +1,5 @@
 const cassandra = require('cassandra-driver');
+const async = requre('async');
 
 const client = new cassandra.Client({
   contactPoints: ['127.0.0.1'],
