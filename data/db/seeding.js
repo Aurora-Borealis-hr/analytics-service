@@ -15,15 +15,18 @@ const insertArrays = (arrOfInteractions) => {
         resolve(results);
       }
     });
-
-  })
+  });
 }
 
 async function insertIneractions(numberOfUsers) {
   let arr = await fakingFunctions.createSchemasPlural(numberOfUsers);
   insertArrays(arr);
-
   console.log(`Inserted ${numberOfUsers} records`);
 }
 
-insertIneractions(10)//.then(() => mongoose.connection.close());
+// insertIneractions(10)
+
+module.exports = {
+  insertArrays,
+  insertIneractions,
+}
