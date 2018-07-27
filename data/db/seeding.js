@@ -1,9 +1,4 @@
-const mongoose = require('mongoose');
 const fakingFunctions = require('../faking.js');
-
-mongoose.connect('mongodb://localhost/analytics');
-mongoose.connection.once('open', () => console.log('Conntected to DB'));
-
 const User = require('./model');
 
 const insertArrays = (arrOfInteractions) => {
